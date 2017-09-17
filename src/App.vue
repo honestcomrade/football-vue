@@ -3,6 +3,14 @@
     <div class="msg-container">
       <h2>{{msg}}</h2>
     </div>
+    <div class="teams-wrapper"> 
+      <!-- <div class="msg-container"> -->
+        <team-component>
+        </team-component>
+        <team-component>
+        </team-component>
+      <!-- </div> -->
+    </div>
     <nav>
       <ul>
         <li>
@@ -31,12 +39,17 @@
 </template>
 
 <script>
+import TeamComponent from './Team.vue'
+
 export default {
   name: 'app',
   data () {
     return {
       msg: 'Welcome back to your team, Jes!'
     }
+  },
+  components: {
+    TeamComponent
   }
 }
 </script>
@@ -92,6 +105,11 @@ nav a {
 
 .msg-container{
   color: seashell
+}
+
+.teams-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
 </style>
