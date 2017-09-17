@@ -6,13 +6,24 @@
     <nav>
       <ul>
         <li>
-          <a href="http://games.espn.com/ffl/leagueoffice?leagueId=262704&seasonId=2017" target="_blank">TEAM</a>
+          <a href="http://games.espn.com/ffl/leagueoffice?leagueId=262704&seasonId=2017" target="_blank">
+            TEAM
+          </a>
         </li>
         <li>
-          <a href="http://games.espn.com/ffl/leagueoffice?leagueId=262704&seasonId=2017" target="_blank">LEAGUE</a>
+          <a href="http://games.espn.com/ffl/leagueoffice?leagueId=262704&seasonId=2017" target="_blank">
+            LEAGUE
+          </a>
         </li>
         <li>
-          <a href="https://github.com/honestcomrade" target="_blank">SUPPORT</a>
+          <a href="http://games.espn.com/ffl/scoreboard?leagueId=262704&seasonId=2017" target="_blank">
+            SCOREBOARD
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/honestcomrade" target="_blank">
+            SUPPORT
+          </a>
         </li>
       </ul>
     </nav>
